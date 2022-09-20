@@ -231,6 +231,9 @@ img{
 }
 
 @media(max-width: 450px){
+    .search-container{
+        margin-left: 0vh;
+    }
     .logo p{
         font-size: 1.4rem;
     }
@@ -241,6 +244,7 @@ img{
     }
     .search-element h3{
         font-size: 1.4rem;
+        display: none;
     }
     .search-list{
         width: 90%;
