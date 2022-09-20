@@ -230,6 +230,14 @@ img{
     margin: 1rem 0.7rem 0 0;
 }
 
+@media(max-width: 900px){
+
+    .search-element h3 i{
+        font-size: 1.4rem;
+        display: none;
+    }
+}
+
 @media(max-width: 450px){
     .search-container{
         margin-left: 0vh;
@@ -243,6 +251,10 @@ img{
         padding: 0.5rem 1rem;
     }
     .search-element h3{
+        font-size: 1.4rem;
+        display: contents;
+    }
+    .search-element h3 i{
         font-size: 1.4rem;
         display: none;
     }
